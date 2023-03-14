@@ -76,9 +76,9 @@ function contLoading() {
   if (barWidth >= 100) {
     var loadBar = document.getElementById("loadingProgress");
     var loadtran = document.getElementById("loadingProgress");
-    document.getElementById("status").innerHTML = "hackt";
-    document.getElementById("precentage").innerHTML = "Files Encrypted";
-    document.getElementById("typedtext").innerHTML = "100% Complete";
+    document.getElementById("status").innerHTML = "Files Encrypted";
+    document.getElementById("precentage").innerHTML = "100% Complete";
+    document.getElementById("typedtext").innerHTML = "goodbye";
     document.getElementById("things").innerHTML =
       "encryption result: hacked :(";
     loadBar.style.width = 0;
